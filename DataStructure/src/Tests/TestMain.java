@@ -4,6 +4,10 @@ import Utils.ArraysUtils;
 
 public class TestMain {
     public static void main(String[] args) {
+
+    }
+    // 测试数组工具类
+    public void TestArrayUtils() {
         ArraysUtils<Integer> arraysUtils = new ArraysUtils<>();
         for (int i = 0; i < 10; i++) {
             arraysUtils.addList(i);
@@ -37,5 +41,4 @@ public class TestMain {
         System.out.println(arraysUtils.toString());
         System.out.println("hello word;");
     }
-
 }
